@@ -40,7 +40,7 @@ board=random.sample(pieces,size)
 turns=[]
 turns.append(board)
 count=1
-banner(size)
+banner(size*3)
 
 while (size*3) > count:
         #print(" "*size*2+"Turn: "+str(count))
