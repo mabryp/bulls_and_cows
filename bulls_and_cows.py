@@ -7,9 +7,9 @@ import os
 os.system('clear')
 pieces=list("0123456789".upper())
 
-def banner():
+def banner(sze):
         print("Place any of the following characters into their proper order.")
-        print("You have 20 Turns to guess the order")
+        print("You have "+str(sze)+" turns to guess the order")
         print("Available characters are: "+' '.join(pieces))
         print("Type 'quit' to exit.")
         print("\n\n")
