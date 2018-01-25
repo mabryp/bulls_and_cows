@@ -28,7 +28,7 @@ def errorCheck(guess_str):
 
 def refreshScreen(lst):
         os.system('clear')
-        banner()
+        banner(size*3)
         for turn in range(1,len(lst)):
                 print("\t"+"| "+" ".join(lst[turn][0])+" | <=> |"+" ".join(lst[turn][1])+" |"+" Turn: "+str(lst[turn][2]))
         print("\n")
